@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .color {
   border: 1px solid black;
   display: inline-block;
@@ -27,7 +32,7 @@
   padding: 0;
 }
 
-.pixel, tr{
+.pixel, tr {
   background-color: white;
   border: 1px solid black;
   width: 40px;
