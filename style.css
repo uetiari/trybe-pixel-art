@@ -27,12 +27,11 @@
 }
 
 #pixel-board {
-  border: 1px solid black;
   margin-top: 20px;
   padding: 0;
 }
 
-.pixel, tr {
+.pixel , tr {
   background-color: white;
   border: 1px solid black;
   width: 40px;
