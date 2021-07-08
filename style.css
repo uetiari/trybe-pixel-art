@@ -1,6 +1,8 @@
 .color {
   border: 1px solid black;
   display: inline-block;
+  width: 40px;
+  height: 40px;
 }
 
 #black {
@@ -18,10 +20,18 @@
 #yellow {
   background-color: yellow;
 }
+
 #pixel-board {
   border: 1px solid black;
+  margin-top: 20px;
+  padding: 0;
 }
 
-.pixel {
+.pixel, tr{
   background-color: white;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
 }
