@@ -22,3 +22,13 @@ function changeColor(event) {
   const selectColor = document.querySelector('.selected');
   event.target.style.backgroundColor = selectColor.id;
 }
+
+const clearButton = document.getElementById('clear-board');
+clearButton.addEventListener('click', clearAll);
+
+function clearAll(){
+  const element = document.querySelectorAll('.pixel');
+  for (let index = 0; index < element.length; index += 1) {
+    element[index].style.backgroundColor = 'white';
+  };
+}
